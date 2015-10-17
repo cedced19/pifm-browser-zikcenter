@@ -1,0 +1,7 @@
+{
+    "version": 2,
+    "port": 7775,
+    "freq": 108.5,
+    "url": "http://",
+    "api": "/api"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "pifm-browser",
+  "version": "0.0.4",
+  "description": "A Node.js software to play musics on a FM radio.",
+  "main": "pifm-browser",
+  "dependencies": {
+    "check-update-github": "0.0.3",
+    "colors": "^1.0.3",
+    "hapi": "^8.1.0",
+    "is-url": "^1.2.1",
+    "socket.io": "^1.3.5",
+    "sync-request": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cedced19/pifm-browser"
+  },
+  "keywords": [
+    "musics",
+    "music",
+    "cli",
+    "basic",
+    "center",
+    "random",
+    "fm"
+  ],
+  "bugs": {
+    "url": "https://github.com/cedced19/pifm-browser/issues"
+  },
+  "homepage": "https://github.com/cedced19/pifm-browser",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-if": "^1.2.5",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uncss": "^1.0.4",
+    "gulp-useref": "^1.1.2",
+    "gulp-util": "^3.0.2"
+  },
+  "author": {
+    "name": "Cédric",
+    "email": "cedced19@gmail.com",
+    "url": "https://github.com/cedced19"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://cedced19.github.io/license/"
+    }
+  ]
+}

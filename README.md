@@ -4,9 +4,9 @@ A Node.js software to play musics from [zikcenter](https://github.com/cedced19/z
 Only on Raspberry Pi.
 If you want to start your radio easily use [start-pifm](https://github.com/cedced19/start-pifm).
 
-[![Build Status](https://travis-ci.org/cedced19/pifm-browser.svg)](https://travis-ci.org/cedced19/pifm-browser)
+[![Build Status](https://travis-ci.org/cedced19/pifm-browser-zikcenter.svg)](https://travis-ci.org/cedced19/pifm-browser-zikcenter)
 
- ![](https://raw.githubusercontent.com/cedced19/pifm-browser/master/demo.png)
+ ![](https://raw.githubusercontent.com/cedced19/pifm-browser-zikcenter/master/demo.png)
 
 ##What say laws ?
 

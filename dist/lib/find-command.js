@@ -2,6 +2,6 @@
 'use strict';
 
 module.exports = function (config, zik) {
-  var pifm = process.cwd() + '/lib/pifm-' + config.version;
+  var pifm = process.cwd() + '/pifm/pifm';
   return 'sox -t mp3 "' + config.url + zik.uri.replace('./', '/') + '" -t wav -  | sudo ' + pifm + ' -freq ' + config.freq + ' -rt "PIFM: '+ zik.name + '" -audio -';
 };

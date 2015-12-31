@@ -20,11 +20,6 @@ gulp.task('copy-server-lib', function () {
         .pipe(gulp.dest('dist/lib'));
 });
 
-gulp.task('copy-pifm', function () {
-    gulp.src('lib/pifm-*')
-        .pipe(gulp.dest('dist/lib'));
-});
-
 gulp.task('html', function () {
     var assets = useref.assets();
 
@@ -50,4 +45,4 @@ gulp.task('css', ['html'], function () {
         .pipe(gulp.dest('dist/vendor/css'));
 });
 
-gulp.task('default', ['css', 'copy-server-lib', 'copy-pifm', 'copy']);
+gulp.task('default', ['css', 'copy-server-lib', 'copy']);

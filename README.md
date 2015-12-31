@@ -1,4 +1,4 @@
-#pifm-browser-zikcenter
+# pifm-browser-zikcenter
 
 A Node.js software to play musics from [zikcenter](https://github.com/cedced19/zikcenter) on a __FM radio__.  
 Only on Raspberry Pi.
@@ -10,12 +10,12 @@ This project use a fork of [ChristopheJacquet/PiFmRds](https://github.com/Christ
 
 ![](https://raw.githubusercontent.com/cedced19/pifm-browser-zikcenter/master/demo.png)
 
-##What say laws ?
+## What say laws ?
 
 You do not have the right to broadcast radio in most countries.
 I am __not__ at all responsible for your actions.
 
-##Installation
+## Installation
 
 ```bash
 git clone --depth=1 --branch=master https://github.com/cedced19/pifm-browser-zikcenter
@@ -29,8 +29,6 @@ apt-get install libsox-fmt-mp3
 node pifm-browser.js
 ```
 
-You can place your musics anywhere in the folder.
-
 Delete all `.o`, if you have to recompile:
 ```
 make clean -C ./pifm
@@ -40,7 +38,7 @@ If you had problems during the compilation mabe install `lubsndfile1-dev`:
 ```
 apt-get install libsndfile1-dev
 ```
-##Configuration
+## Configuration
 
 You can change the frequency, the url, the api path, the version of the raspberry pi, the port on `config.json`
 
@@ -48,7 +46,6 @@ See default options:
 
 ```json
 {
-    "version": 2,
     "port": 7775,
     "freq": 108.5,
     "url": "http://",
